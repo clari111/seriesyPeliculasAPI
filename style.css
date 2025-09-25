@@ -1,0 +1,14 @@
+body{
+  background-color: black;
+}
+
+h1{
+    color: blanchedalmond;
+    align-items: center;
+    display: flex;
+flex-direction: column;
+}
+
+#principio{
+    align-items: center;
+}
