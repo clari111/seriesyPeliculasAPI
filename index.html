@@ -1,29 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Película</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
 
-
-
-   <div class="caja">
-      <h1 id="titulo">Título Pelicula </h1>
-      <h2 id="descripcionPeli"> Descripción </h2> 
-      <div class="botones">
-        <button id="boton">Mostrar</button>
-      </div>
-    </div>
-
-
+    <nav class="container-fluid navbar navbar-expand-sm bg-dark navbar-dark">
+        <img id="rounded-pill"  src="logonasa.png" width="2" height="120">
+        <ul class="navbar-nav">
+            <li class="nav-item"> <a class="nav-link" href="https://www.nasa.gov/es/">NASA</a>  </li>
+            <li class="nav-item"> <a class="nav-link" href="https://www3.nasa.gov/envia-tu-nombre-con-artemis/">Envia tu nombre </a>  </li>
+            <li class="nav-item"> <a class="nav-link" href="https://www.nasa.gov/podcasts/">Podcast </a>  </li>
+        </ul>
+    </nav>
+    
     
 
 
+  <div id= "contenedor"
+  class="caja">
+    <h1 id="titulo">Título Película</h1>
+    <h2 id="descripcionPeli">Descripción</h2> 
+    <div class="botones">
+      <button id="boton">Mostrar</button>
+    </div>
+  </div>
 
+  <script src="apod.js"></script>
 </body>
-<script src="apod.js"></script>
 </html>
